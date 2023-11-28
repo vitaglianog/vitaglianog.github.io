@@ -1,0 +1,21 @@
+##########################################################
+#                Home Page Data
+###########################################################
+page_data:
+
+  main:
+    header: "Home"
+    info: ""
+    text_color: "white"
+    # if you don't want to use background image, comment it. back_color will be activated.
+    img: ":home-heading.jpg"
+    back_color: "lightblue"
+
+  aboutme: "
+  I am a (soon-to-graduate) Ph.D. student at the Information Systems Group lead by Prof. Felix Naumann at the Hasso Plattner Institute in Potsdam, Germany.
+  My research interests are on data preparation and information extraction, and I am most active at the intersection of machine learning and data management systems.
+  Feel free to contact me for collaborations, research proposals, or anything closely or loosely related to these research interests.
+  Being born right at the center of the Mediterranean Sea, I am a lover of sea, italian food, and espresso.
+  The beautiful landscape above is from Monte Paipo in Italy, a hiking spot close to my hometown.
+  "
+

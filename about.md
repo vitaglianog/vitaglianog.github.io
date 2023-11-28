@@ -36,9 +36,7 @@ img: ":about.jpg"
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
-
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
-
-{{ website_info_text_second }}
+  I am a (soon-to-graduate) Ph.D. student at the Information Systems Group lead by Prof. Felix Naumann at the Hasso Plattner Institute in Potsdam, Germany.
+  My research interests are on data preparation and information extraction, and I am most active at the intersection of machine learning and data management systems.
+  Feel free to contact me for collaborations, research proposals, or anything closely or loosely related to these research interests.
+  Being born right at the center of the Mediterranean Sea, I am a lover of sea, Italian food, and espresso.

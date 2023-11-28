@@ -5,7 +5,7 @@
 brand: "Gerardo Vitagliano"
 
 # text below the brand name
-brand_sub_text: "$site_sample"
+brand_sub_text: "$site_about"
 
 # used for seo meta post author (if it's not defined in post)
 name: "Gerardo Vitagliano"
@@ -19,7 +19,7 @@ home:
 
 # about page sub title
 about:
-  sub_title: "$site_sample"
+  sub_title: "$site_about"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
@@ -48,9 +48,9 @@ meta_common_description: "Your meta description."
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  - github: "vitaglianog"
-  - email: "gerardo.vitagliano (at) hpi.de"
+  - email: "gerardo.vitagliano@hpi.de"
   - linkedin: "https://www.linkedin.com/in/gerardo-vitagliano/"
+  - github: "vitaglianog"
   #- twitter: ""
   #- mastodon: ""
   #- instagram: ""

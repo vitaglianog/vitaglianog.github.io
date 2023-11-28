@@ -1,22 +1,22 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_Examples
-title: Examples
+lng_pair: id_thesis
+title: Shipping out to Boston
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
-author: Mr. Green's Workshop
+author: Gerardo Vitagliano
 # multiple category is not supported
-category: jekyll
+category: academic
 # multiple tag entries are possible
-tags: [jekyll, sample, example post]
+tags: [academic, thesis, phd]
 # thumbnail image for post
 img: ":post_pic1.jpg"
 # disable comments on this page
 #comments_disable: true
 
 # publish date
-date: 2022-02-10 08:11:06 +0900
+date: 2023-10-30 18:00:00 +0100
 
 # seo
 # if not specified, date will be used.
@@ -41,7 +41,7 @@ published: false
 
 <!-- outline-start -->
 
-This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
+On this day, I finally submitted my PhD thesis.
 
 <!-- outline-end -->
 

@@ -10,6 +10,7 @@ layout: default
 {%- assign lng = get_lng -%}
 
 {%- assign project_data = page.page_data | default: site.data.content.projects[lng].page_data -%}
+{%- assign publications = page.publications | default: site.data.content.publications[lng].page_data.list -%}
 
 {%- assign project_container_style = nil -%}
 {%- if project_data.main.img -%}
@@ -24,13 +25,14 @@ layout: default
   {%- capture color_style -%} style="color:{{ project_data.main.text_color }};" {%-endcapture-%}
 {%- endif %}
   <h1 {{ color_style }}>{{ project_data.main.header | default: "Projects" }}</h1>
-  <p {{ color_style }}>{{ project_data.main.info | default: "No data, check page_data in [language]/tabs/projects.md front matter or _data/content/projects/[language].yml" }}</p>
-  <div class="multipurpose-button-wrapper">
+  <!-- <div class="multipurpose-button-wrapper">
   {% for category in project_data.category %}
     <a href="#{{ category.type }}" role="button" class="multipurpose-button project-buttons" style="background-color:{{ category.color }};">{{ category.title }}</a>
   {% endfor %}
-  </div>
+  </div> -->
 </div>
+
+<p>{{ project_data.main.info | default: "No data, check page_data in [language]/tabs/projects.md front matter or _data/content/projects/[language].yml" }}</p>
 
 {% for category in project_data.category -%}
   {%- capture first_category_id -%} id="{{ category.type }}" {%-endcapture-%}
@@ -56,7 +58,7 @@ layout: default
           <h1>{{ list.project_name }}</h1><h4>{{ list.project_excerpt }}</h4>
           <div class="meta-container">
             <p class="date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp;{{ list.date | date: out_date_format }}</p>
-            <p class="category">#{{ category.title }}</p>
+            <!-- <p class="category">#{{ category.title }}</p> -->
           </div>
           <hr>
           <a href="javascript:void(0);" class="read-more-less">
@@ -68,6 +70,13 @@ layout: default
       <div class="row">
         <div class="markdown-style">
           {{ list.post | markdownify }}
+          References:
+          {% for key in list.pub_key -%}
+            <ul>
+            {% assign ref = publications | where:"key", key | first %}
+             <li>{{ ref.authors }} : <b> {{ ref.title }} </b> <i> {{ ref.venue }} </i>, {{ref.year}} </li>
+            </ul>
+          {% endfor %}
           <a href="javascript:void(0);" class="read-more-less">
             <i class="fa fa-angle-double-up fa-fw" aria-hidden="true"></i>{{ site.data.lang[lng].projects.read_less_text }}
           </a>

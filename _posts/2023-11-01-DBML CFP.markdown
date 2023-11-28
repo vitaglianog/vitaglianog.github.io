@@ -1,0 +1,90 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_thesis
+title: DBML Call for Papers
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: Gerardo Vitagliano
+# multiple category is not supported
+category: academic
+# multiple tag entries are possible
+tags: [academic, dbml, cfp]
+# thumbnail image for post
+img: ":dbml_thumb.jpg"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2023-11-01 17:30:00 +0100
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-02-10 08:11:06 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+#image_viewer_on: true
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+published: true
+---
+
+<!-- outline-start -->
+
+The CfP for the DBML workshop at ICDE 2024 is out. More details [here](https://www.wis.ewi.tudelft.nl/dbml2024)!
+<!-- outline-end -->
+
+#### Submission Guidelines:
+
+All papers must be original and not simultaneously submitted to another journal or conference.  
+The workshop will accept both regular papers (6 pages) and short papers (4 pages) - work in progress, vision/outrageous ideas.
+
+- Workshop website: [DBML 2024](https://www.wis.ewi.tudelft.nl/dbml2024)
+- Submission Website: [EasyChair](https://easychair.org/my/conference?conf=dbml24)
+ 
+#### Important Dates:
+
+- Paper submission deadline: **Jan 05, 2024**
+- Authors notification: **Feb 01, 2024**
+- Camera ready version: **Feb 16, 2024**
+- Workshop day: **May 13, 2024**
+ 
+#### Topics of interests:
+
+ML for Data Management:
+ - Learned data discovery, cleaning, and transformation
+ - ML-enabled data exploration and discovery in data lakes
+ - Learned database design, configuration, and tuning
+ - ML for query optimization, indexing, partitioning
+ - Natural language enablement (e.g., queries, result summarization, chatbot interfaces, etc.)
+ - Pretrained models for databases and data management, e.g. (Large Language Models).
+ - Representation learning for data cleaning, preprocessing, and management
+ - Benchmarking ML-oriented data management (data augmentation, data cleaning, etc) or DBMSs
+
+Data Management for ML:
+ - Data collection and preparation for ML applications
+ - Data quality and provenance for ML
+ - Novel data management systems for accelerating training and inference of ML models
+ - Data and metadata management for the ML lifecycle
+ - DB-inspired techniques for modeling, storage, and provenance of ML artifacts 
+
+#### Venue:
+The workshop will take place in conjunction with ICDE 2024 in Utrecht, Netherlands.
+
+#### Contact:
+The workshop chairs are:
+ - Ziyu Li (TU Delft)
+ - Gerardo Vitagliano (HPI)
+ - Carsten Binnig (TU Darmstadt)
+
+Any question about submissions or the workshop should be emailed to [dbml24chairs@gmail.com](mailto:dbml24chairs@gmail.com)

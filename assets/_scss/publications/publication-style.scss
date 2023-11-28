@@ -1,0 +1,82 @@
+/* Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+ * Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
+ * Licensed under MIT
+*/
+
+.publications-heading-container .publication-buttons {
+  @include get_scheme(publication-style-colors-);
+  --multipurpose-button-text-color: var(--publications-button-text-color);
+  --multipurpose-button-border-color: var(--publications-button-border-color);
+  --multipurpose-button-hover-color: var(--publications-button-hover-color);
+}
+
+.publication-container {
+  @include get_scheme(bootstrap-dark-table-hover-colors-);
+  @include get_scheme(bootstrap-dark-table-colors-);
+  transition: border-left 1s;
+  margin-bottom: 10px;
+}
+
+.publication-container:hover {
+  border-left: solid 2px;
+}
+
+.publication-container > a {
+  cursor: unset;
+}
+
+.publications-heading-container > p,
+.publication-container > .table > tbody > tr > td,
+.publication-container > .table > tbody > tr > th,
+.publication-container > .table > tfoot > tr > td,
+.publication-container > .table > tfoot > tr > th,
+.publication-container > .table > thead > tr > td,
+.publication-container > .table > thead > tr > th {
+  line-height: 2.4rem;
+}
+
+/* publication info */
+.publication-container > .table .publication-item > td:last-child > p {
+  text-align: justify;
+}
+
+/* remove last spacing */
+.publication-container > .table > tbody > tr td {
+  padding-bottom: 0px;
+}
+
+/* remove last spacing */
+.publication-container > .table > tbody > tr:last-child p {
+  margin-bottom: 0px;
+}
+
+.publication-container > .\> tbody,
+.publication-container > .table {
+  margin-bottom: 0px;
+}
+
+/* anchor style */
+.publication-container > .table > tbody > tr.publication-item > td > p > b {
+  color: var(--body-anchor-text-color);
+}
+
+/* make site name column fixed width */
+.publication-container > .table {
+  table-layout: fixed;
+}
+
+.publication-container > .table > thead:first-child > tr:first-child > th:first-child {
+  height: auto;
+  width: 70%;
+}
+
+.publication-container > .table > tbody > tr > td:first-child {
+  height: auto;
+  width: 70%;
+}
+
+/* remove table row lines. */
+// .publication-container > .table > tbody > tr > td {
+//   border-top-color: transparent;
+//   white-space:nowrap;
+//}

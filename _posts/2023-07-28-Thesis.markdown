@@ -1,0 +1,63 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_thesis
+title: PhD thesis submitted
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: Gerardo Vitagliano
+# multiple category is not supported
+category: academic
+# multiple tag entries are possible
+tags: [academic, thesis, phd]
+# thumbnail image for post
+img: ":thesis_thumb.jpg"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2023-07-28 10:30:00 +0100
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-02-10 08:11:06 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+#image_viewer_on: true
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+published: true
+---
+
+<!-- outline-start -->
+
+On this day, I finally submitted my PhD thesis.
+
+<!-- outline-end -->
+
+#### The end of a journey
+
+I did not expect the process to be completely smooth, but I definitely did not expect to struggle in the things I actually did.
+On the academic side of things, getting to write the thesis and wrapping up the work I have been doing in the past few years at the HPI was definitely challenging enough, but most of the frustration came down to fiddling with the LaTeX template and weird conflicts of packages that unexpectedly pop up as the work gets compiled and extended over and over again.
+Sometimes, I wonder if it shouldn't be about time someone comes up with a better way to write and/or typeset academic papers and theses without struggling with package dependencies or buggy interfaces (thinking of WSYWG alternatives).
+But I digress, and that's a topic for another day.
+
+Most of my struggles actually came down from bureaucratic and logistic issues. For example, shipping my official Master's degree from Italy definitely took longer than expected since the package got lost at the border, even though shipment was tracked (!) - only to figure out after a few stressful days and countless calls to all german and italian post carriers, that the package was actually delivered to some random shop in my neighbourhood, and that the tracking system was not updated accordingly.
+
+As a cherry on top, once my checklist of documents was complete, my university requested me to provide a physical artifact containing a digital copy of the dissertation to keep it in the file. Read it once more, and then again.
+Thankfully, I was able to find a last-minute blank CD-Rom and USB burner and managed to complete the submission process.
+
+Now, it's about waiting for the reviewers to receive the thesis, write their reviews and once they are done, it's possible to schedule a date for the defense my work in front of the official committee.
+
+Look at my dissertation! Isn't it pretty?
+![such a lovely thesis](:thesis.png)

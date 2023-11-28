@@ -59,7 +59,7 @@ greetings_replace: "$site_greetings"
 welcome_replace: "$site_welcome"
 
 # replace text with data.lang[language].constants.sample
-sample_replace: "$site_sample"
+about_replace: "$site_about"
 
 ###########################################################
 #                Search
@@ -189,10 +189,12 @@ side_and_top_nav_buttons:
     icon: "fa fa-home"
   - post-list:
     icon: "fa fa-pencil-square-o"
+  - publications:
+    icon: "fa fa-book"
   - archives:
     icon: "fa fa-archive"
   - projects:
-    icon: "fa fa-cog"
+    icon: "fa fa-tasks"
   - links:
     icon: "fa fa-link"
   - about:
@@ -213,7 +215,7 @@ top_nav_brand_text_enable: true
 
 # set profile image
 # comment to disable the profile image
-side_nav_profile_img_path: /assets/default/gerardo_thumb_circle.png
+side_nav_profile_img_path: /assets/img/default/gerardo_thumb_circle.png
 
 # this adds hover effect to bottom buttons
 side_nav_bottom_buttons_hover_effect: "hover-effect"
@@ -324,7 +326,7 @@ google:
 # make sure google_analytics_id is set in _data/owner/[language].yml
 # make sure your environment does not match with google.analytics.ignore
 cookie_consent:
-  enable: true
+  enable: false
   # if this is true, the consent box will be hidden even if the user does not change the switch position.
   hide_consent_bar_with_save_button: true
   gtag_default_config:

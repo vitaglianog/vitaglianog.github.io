@@ -1,0 +1,112 @@
+###########################################################
+#                Publications Page Data
+###########################################################
+page_data:
+  main:
+    header: "Publications"
+    info: "List of publications."
+
+  # To change order of the Categories, simply change order. (you don't need to change list order.)
+  category:
+    - title: "All Publications"
+      type: id_allpublications
+      color: "#62b462"
+
+
+  list:
+    - type: id_allpublications
+      authors: "M. Hameed, G. Vitagliano, F. Naumann"                 
+      title: "MORPHER: Structural Transformation of ill-formed Rows." 
+      venue: "Proceedings of the International Conference on Information and Knowledge Management (CIKM)"
+      year: 2023
+      paper_source: ""
+      paper_url: ""
+      code_url: ""
+      code_source: ""
+
+    # selectedpublications
+    - type: id_allpublications
+      key: "magritte_abstract"
+      authors: "G. Vitagliano, M. Hameed, F. Naumann"
+      title: "Structural embedding of data files with MaGRiTTE."
+      venue: "Table Representation Learning Workshop at NeurIPS (TRL@NeurIPS)"
+      year: 2022
+      paper_source: TRL@NeurIPS
+      paper_url: "https://table-representation-learning.github.io/assets/papers/structural_embedding_of_data_f.pdf"
+      code_url: "https://github.com/HPI-Information-Systems/Magritte"
+      code_source: "GitHub"
+
+
+    - type: id_allpublications
+      key: "pollock"
+      authors: "G. Vitagliano, M. Hameed, L. Jiang, L. Reisener, E. Wu, F. Naumann" 
+      title: "Pollock: A Data Loading Benchmark."
+      venue: "PVLDB 16(8):1870–1882"
+      year: 2022
+      paper_source: PVLDB
+      paper_url: "https://www.vldb.org/pvldb/vol16/p1870-vitagliano.pdf"
+      code_url: "https://github.com/HPI-Information-Systems/Pollock"
+      code_source: "GitHub"
+
+    - type: id_allpublications
+      key: "mondrian_demo"
+      authors: "G. Vitagliano, L. Reisener, L. Jiang, M. Hameed, F. Naumann"
+      title: "Mondrian: Spreadsheet Layout Detection."
+      venue: "Proceedings of the International Conference on Management of Data (SIGMOD)"
+      year: 2022
+      paper_source: ACM
+      paper_url: "https://dl.acm.org/doi/pdf/10.1145/3514221.3520152"
+      code_url: "https://hpi.de/naumann/sites/mondrian/demo/"
+      code_source: "Web demo"
+
+    - type: id_allpublications
+      key: "suragh"
+      authors: "M. Hameed, G. Vitagliano, L. Jiang, F. Naumann"
+      title: "SURAGH: Syntactic Pattern Matching to Identify Ill-Formed Records."
+      venue: "Proceedings of the International Conference on Extending Database Technology (EDBT)"
+      year: 2022
+      paper_source: "OpenProceedings"
+      paper_url: "https://openproceedings.org/2022/conf/edbt/paper-32.pdf"
+      code_url: "https://github.com/HPI-Information-Systems/SURAGH"
+      code_source: "GitHub"
+
+    - type: id_allpublications
+      authors: "L. Jiang, G. Vitagliano, M. Hameed, F. Naumann"
+      title: "Aggregation Detection in CSV Files."
+      venue: "Proceedings of the International Conference on Extending Database Technology (EDBT)"
+      year: 2022
+      paper_source: "OpenProceedings"
+      paper_url: "https://openproceedings.org/2022/conf/edbt/paper-44.pdf"
+      code_url: "https://github.com/lanchiang/AggreCol"
+      code_source: "GitHub"
+
+    - type: id_allpublications
+      authors: "G. Vitagliano, L. Jiang, F. Naumann"
+      key: "mondrian_full"
+      title: "Detecting Layout Templates in Complex Multiregion Files."
+      venue: "PVLDB 15(3):646-658"
+      year: 2021
+      paper_source: "PVDLB"
+      paper_url:  "http://vldb.org/pvldb/vol15/p646-vitagliano.pdf"
+      code_url: "https://github.com/HPI-Information-Systems/Mondrian"
+      code_source: "GitHub"
+
+    - type: id_allpublications
+      authors: "L. Jiang, G. Vitagliano, F. Naumann"
+      title: "Structure Detection in Verbose CSV Files."
+      venue: "Proceedings of the International Conference on Extending Database Technology (EDBT)"
+      year: 2021
+      paper_source: "EDBT"
+      paper_url: "https://edbt2021proceedings.github.io/docs/p32.pdf"
+      code_url: "https://github.com/lanchiang/strudel"
+      code_source: "GitHub"
+
+    - type: id_allpublications
+      authors: "L. Jiang, G. Vitagliano, F. Naumann"
+      title: "A Scoring-based Approach for Data Preparator Suggestion."
+      venue: "Lernen, Wissen, Daten, Analysen (LWDA)"
+      year: 2019
+      paper_url: "https://hpi.de/fileadmin/user_upload/fachgebiete/naumann/publications/PDFs/2019_jiang_a.pdf"
+      paper_source: HPI 
+      code_url: "https://github.com/lanchiang/data-knoller"
+      code_source: "GitHub"

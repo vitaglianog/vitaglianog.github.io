@@ -110,8 +110,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: News
+  button_name: News
   upside_down_tabs:
     tab:
       all: All
@@ -134,10 +134,10 @@ post-list:
 
 # for home layout
 home:
-  title: Welcome
+  title: Home
   button_name: Home
-  new_posts_title: New Articles
-  new_posts_show_more_button: View More ...
+  new_posts_title: News
+  new_posts_show_more_button: View all news
 
 # for archives layout
 archives:
@@ -158,6 +158,15 @@ links:
   link_text: Web site
   info_text: Info
 
+# for publications layout
+publications:
+  title: Publications
+  button_name: Publications
+  date_text: Date
+  reference_text: Reference
+  doc_text: Paper
+  code_text: Code
+
 # for projects layout
 projects:
   title: Projects
@@ -171,9 +180,9 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Hello
+  greetings: About me
   welcome: Welcome
-  sample: Sample
+  about: PhD candidate, HPI
 
 # for contact form
 contact_form:

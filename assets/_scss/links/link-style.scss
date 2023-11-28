@@ -50,7 +50,7 @@
   margin-bottom: 0px;
 }
 
-.link-container > .table > tbody,
+.link-container > .\> tbody,
 .link-container > .table {
   margin-bottom: 0px;
 }
@@ -76,6 +76,7 @@
 }
 
 /* remove table row lines. */
-/*.link-container > .table > tbody > tr > td {
-  border-top-color: transparent;
-}*/
+// .link-container > .table > tbody > tr > td {
+//   border-top-color: transparent;
+//   white-space:nowrap;
+//}

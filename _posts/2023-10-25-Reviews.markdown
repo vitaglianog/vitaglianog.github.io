@@ -1,0 +1,65 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_thesis
+title: Reviewing, lessons learned
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: Gerardo Vitagliano
+# multiple category is not supported
+category: academic
+# multiple tag entries are possible
+tags: [academic, review]
+# thumbnail image for post
+img: ":writing_thumb.jpg"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2023-10-25 14:00:00 +0100
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-02-10 08:11:06 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+#image_viewer_on: true
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+published: true
+---
+
+<!-- outline-start -->
+
+About writing and receiving reviews.
+
+<!-- outline-end -->
+
+## Reviewing, lessons learned
+This year, as my doctoral studies wrap up and I prepare for an academic postdoc (more news to follow), I got more involved with the research community as a reviewer.
+Particularly, in this batch of reviews I was asked to review about half a dozen papers. It was the first time I was tasked with review several papers at once, and I took the opportunity to reflect on the process and try and formalize my own approach to it.
+
+#### As a reviewer
+In sparse order, here are some of my thoughts:
+ - I tried to not form a final judgement until I had read the whole paper several times. On each pass, I would generally note down positive remarks, or doubts and questions about the paper. On each following pass, I tried to either find counter-arguments to the positives, or answers to the previous doubts and questions.
+ - When reading a paper, I found writing and style is very important. Poorly written paper may have very good contributions, but if I wouldn't have been patient enough to parse them, I would have not clearly appreciated them. 
+ - When writing a review, I always tried to give constructive examples. More than just expressing concerns and questions,I also tried to give examples of what would ease my concerns, as to better guide the authors in their revisions.
+ - Dear authors: please please **please** do not use ChatGPT or other LLMs for writing extended paragraphs in your papers. While at first glance it may not be obvious, I can promise you that any person actively reading realizes this immediately. My arguments to not do it are the following: 1) sends out the message "I don't care about writing this", to which a natural reaction would be "why should I care about reading this"; 2) the quality of the text is very dubious, it is sloppy writing, redundant, verbose and frankly not scientific writing at all.
+ I am not against using LLMs for writing, but I would lean towards using them more as an assistance rather than as an end-to-end tool.
+
+
+#### As an author
+Reflecting on my own experience as a reviewer, I definitely took some lessons:
+ - The style of writing and the layout of the paper are fundamental. The less effort it takes for a reviewer to understand the paper, the more likely he can focus on its contributions. Lazy reviewers may exist, but it is more use to tailor one's writing with the attitude that reviewers are willing to put in _some_ effort to understand a paper.
+ - It is somewhat challenging to grasp what are the unique contributions of your own work vs related works. Honest and thorough related work sections can ease the mind of readers.
+ - The discussion of the experiments is more important than the raw numbers themselves. Although having good results is often a necessary condition for a paper to be accepted, it is not sufficient. Discussing the results and going into the details of why they are good or bad is fundamental to assess the contributions of a paper. One good way to organize the experimental section is to explicitly mention the goal of each experiment.
