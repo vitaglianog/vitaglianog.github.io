@@ -48,8 +48,9 @@ meta_common_description: "Your meta description."
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  - email: "gerardo.vitagliano@hpi.de"
+  - email: "gerarvit@mit.edu"
   - linkedin: "https://www.linkedin.com/in/gerardo-vitagliano/"
+  - scholar: https://scholar.google.com/citations?user=zYBXv3sAAAAJ
   - github: "vitaglianog"
   #- twitter: ""
   #- mastodon: ""

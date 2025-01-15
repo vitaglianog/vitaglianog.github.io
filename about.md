@@ -36,7 +36,8 @@ img: ":about.jpg"
 #published: false
 ---
 
-  I am a (soon-to-graduate) Ph.D. student at the Information Systems Group lead by Prof. Felix Naumann at the Hasso Plattner Institute in Potsdam, Germany.
-  My research interests are on data preparation and information extraction, and I am most active at the intersection of machine learning and data management systems.
+  I am a postdoc at the MIT CSAIL, where I am part of the Data Systems Group. I graduated from my Ph.D. at the Hasso Plattner Institute in Potsdam, Germany.
+  My goal is to make data accessible for everyone: not only for data engineers, but also for domain experts, natural scientists, and passionate users.
+  For this reason, I am interested in data designing systems that are user-friendly and efficient. In data management terms, I am working to automate data integration, support multimodal question answering, and optimizing the runtime and costs of large-scale data pipelines.
   Feel free to contact me for collaborations, research proposals, or anything closely or loosely related to these research interests.
   Being born right at the center of the Mediterranean Sea, I am a lover of sea, Italian food, and espresso.

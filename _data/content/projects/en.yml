@@ -32,6 +32,18 @@ page_data:
 
   list:
     - type: id_example
+      project_name: "PalimpZest"
+      project_excerpt: "A declarative data systems to code data pipelines with LLMs."
+      img: ":pz_thumb.jpg"
+      img_title: "PalimpZest"
+      date: "2024-01-09"
+      pub_key: "palimpzest"
+      post: |
+        - [Blog post](https://dsg.csail.mit.edu/projects/palimpzest/)
+        - [GitHub](https://github.com/mitdbg/palimpzest)
+
+
+    - type: id_example
       project_name: "MaGRiTTE"
       project_excerpt: "A large pretrained model is aimed at representing tabular files with ML to solve data preparation issues."
       img: ":magritte_thumb.jpg"

@@ -15,6 +15,27 @@ page_data:
 
   list:
     - type: id_allpublications
+      authors: "C. Liu, M. Russo, M. Cafarella, L. Cao, P. B. Chen, Z. Chen, M. Franklin, T. Kraska, S. Madden, R. Shahout, G. Vitagliano"                 
+      title:: "Palimpzest: Optimizing AI-Powered Analytics with Declarative Query Processing"                 
+      venue: "International Conference on Innovative Data Systems Research (CIDR)"
+      year: 2025
+      paper_source: ""
+      paper_url: "https://cidrdb.org/cidr2025/papers/p1-liu-cidr25.pdf"
+      code_source: ""
+      code_url: "https://github.com/mitdbg/palimpzest"
+
+
+    - type: id_allpublications
+      authors: "M. Hameed, G. Vitagliano, F. Panse, F. Naumann"                 
+      title:: "TASHEEH: Repairing Row-Structure in Raw CSV Files"                 
+      venue: "Proceedings of the International Conference on Extending Database Technology (EDBT)"
+      year: 2024
+      paper_source: OpenProceedings
+      paper_url: "https://openproceedings.org/2024/conf/edbt/paper-108.pdf"
+      code_source: ""
+      code_url: ""
+
+    - type: id_allpublications
       authors: "M. Hameed, G. Vitagliano, F. Naumann"                 
       title: "MORPHER: Structural Transformation of ill-formed Rows." 
       venue: "Proceedings of the International Conference on Information and Knowledge Management (CIKM)"
