@@ -32,6 +32,17 @@ page_data:
 
   list:
     - type: id_example
+      project_name: "PalimpChat"
+      project_excerpt: "A chat interface to build data pipelines interactively using Palimpzest."
+      img: ":pz_thumb.jpg"
+      img_title: "PalimpChat"
+      date: "2025-02-05"
+      pub_key: "palimpchat"
+      post: |
+        - [Project page](https://www.palimpzest.org/chat)
+        - [GitHub](https://github.com/mitdbg/palimpzest)
+
+    - type: id_example
       project_name: "PalimpZest"
       project_excerpt: "A declarative data systems to code data pipelines with LLMs."
       img: ":pz_thumb.jpg"
@@ -39,7 +50,7 @@ page_data:
       date: "2024-01-09"
       pub_key: "palimpzest"
       post: |
-        - [Blog post](https://dsg.csail.mit.edu/projects/palimpzest/)
+        - [Project page](https://www.palimpzest.org/)
         - [GitHub](https://github.com/mitdbg/palimpzest)
 
 
