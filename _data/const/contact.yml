@@ -21,6 +21,9 @@ email:
 linkedin:
   icon: "fa fa-linkedin"
   url: "https://www.linkedin.com/in"
+scholar:
+  icon: "/assets/img/default/scholar.svg"
+  url: "https://scholar.google.com/"
 twitter:
   icon: "fa fa-twitter"
   url: "https://twitter.com"

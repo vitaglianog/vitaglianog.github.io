@@ -12,11 +12,11 @@ page_data:
     back_color: "lightblue"
 
   aboutme: "
-  I am a Postdoctoral Associate at MIT, in the Data Systems Group.
+  I am a Postdoctoral Associate at MIT, in the Data Systems Group. <br>
   My goal is to make data accessible for all. I am passionate about data and I would like to make it easier for everyone to use it.
-  I am working at the intersection of data management and artificial intelligence. The research areas I find exciting are multimodal question answering sytems, automating the design of complex data pipelines, and optimizing agentic and ML-based workloads.
-  Feel free to contact me for collaborations, research proposals, or anything closely or loosely related to these research interests.
+  I am working at the intersection of data management and artificial intelligence. The research areas I find exciting are multimodal question answering sytems, automating the design of complex data pipelines, and optimizing agentic and ML-based workloads.<br>
+  Feel free to contact me for collaborations, research proposals, or anything closely or loosely related to these research interests.<br>
   Being born right at the center of the Mediterranean Sea, I am a lover of sea, italian food, and espresso.
-  The beautiful landscape above is from Monte Paipo in Italy, a hiking spot close to my hometown.
+  The beautiful landscape above is from Monte Paipo in Italy, a hiking spot close to my hometown.<br>
   "
 

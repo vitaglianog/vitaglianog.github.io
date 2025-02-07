@@ -110,8 +110,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: News
-  button_name: News
+  title: Blog
+  button_name: Blog
   upside_down_tabs:
     tab:
       all: All
@@ -137,7 +137,7 @@ home:
   title: Home
   button_name: Home
   new_posts_title: News
-  new_posts_show_more_button: View all news
+  new_posts_show_more_button: View all blog posts
 
 # for archives layout
 archives:
@@ -182,7 +182,7 @@ privacy-policy:
 constants:
   greetings: About me
   welcome: Welcome
-  about: Postdoctoral associate, MIT
+  about: Postdoctoral associate, MIT <br> gerarvit [at] mit.edu
 
 # for contact form
 contact_form:
