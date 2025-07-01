@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: system-ui, Arial, sans-serif;
+      table-layout: fixed;
+      word-wrap: break-word;
+    }
+    .schedule-table thead th {
+      background: #4f7eed;
+      color: #fff;
+      padding: 6px 10px;
+      text-align: left;
+    }
+    .schedule-table td,
+    .schedule-table th {
+      border: 1px solid #e0e0e0;
+      padding: 6px 10px;
+      vertical-align: top;
+    }
+    .schedule-table tbody tr:nth-child(even) td {
+      background: #f9f9f9;
+    }
+    .schedule-table .break-row td {
+      background: #d9e6e9;
+      font-weight: 600;
+      text-align: center;
+    }
+  </style>
+    </head>
+    <body>
+
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th style="width:7rem;">Time</th>
+                    <th>Talk</th>
+                    <th style="width:35%;">Speaker(s)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8:30</td>
+                    <td>Opening Remarks</td>
+                    <td>Workshop Chairs</td>
+                </tr>
+                <tr>
+                    <td>8:45</td>
+                    <td>Keynote: Databases Unleashed - Rethinking Relational Databases
+                        in the Age of LLMs </td>
+                    <td>Carsten Binnig, TU Darmstadt</td>
+                </tr>
+
+                <tr class="break-row">
+                    <td colspan="3">Short Discussion Break (15 min) </td>
+                </tr>
+
+                <tr>
+                    <td>9:45</td>
+                    <td>TableVault: Managing Dynamic Data Collections for LLM-Augmented
+                        Workflows</td>
+                    <td>Jinjin Zhao, University of Chicago</td>
+                </tr>
+                <tr>
+                    <td>10:00</td>
+                    <td>Automated Training of Learned Database Components with
+                        Generative AI</td>
+                    <td>Angjela Davitkova, Sebastian Michel</td>
+                </tr>
+                <tr>
+                    <td>10:15</td>
+                    <td>Interactive Data Harmonization with LLM Agents: Opportunities
+                        and Challenges</td>
+                    <td>Aécio Santos, Eduardo H. M. Pena, Roque Lopez, Juliana
+                        Freire</td>
+                </tr>
+
+                <tr class="break-row">
+                    <td colspan="3">Coffee Break ☕</td>
+                </tr>
+
+                <tr>
+                    <td>11:00</td>
+                    <td>HLR-SQL: Human-Like Reasoning for Text-to-SQL</td>
+                    <td>Timo Eckmann, TU Darmstadt</td>
+                </tr>
+                <tr>
+                    <td>11:15</td>
+                    <td>Effectiveness of Prompt Optimization in NL2SQL Systems</td>
+                    <td>Sairam Gurajada, Eser Kandogan, Sajjadur Rahman</td>
+                </tr>
+                <tr>
+                    <td>11:30</td>
+                    <td>Keynote: LLM-powered Data Tooling: the Next Frontier</td>
+                    <td>Aditya Parameswaran, UC Berkeley</td>
+                </tr>
+                <tr>
+                    <td>12:15</td>
+                    <td>Closing Remarks</td>
+                    <td>Workshop Chairs</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script>
+    window.addEventListener("load", () => {
+      const height = document.body.scrollHeight;
+      window.parent.postMessage({ type: 'resize-iframe', height }, '*');
+    });
+  </script>
+    </body>
+</html>
