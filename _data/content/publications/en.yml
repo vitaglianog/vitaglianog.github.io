@@ -15,19 +15,59 @@ page_data:
 
   list:
     - type: id_allpublications
-      authors: "C. Liu, M. Russo, M. Cafarella, L. Cao, P. B. Chen, Z. Chen, M. Franklin, T. Kraska, S. Madden, R. Shahout, G. Vitagliano"                 
-      title:: "Palimpzest: Optimizing AI-Powered Analytics with Declarative Query Processing"                 
+      authors: "M. Russo, C. Liu, S. Sudhir, G. Vitagliano, M. Cafarella, T. Kraska, S. Madden"
+      title: "Abacus: A cost-based optimizer for semantic operator systems"
+      venue: "PVLDB"
+      year: 2026
+      paper_source: "ACM DL"
+      paper_url: "https://dl.acm.org/doi/abs/10.14778/3796195.3796215"
+      code_source: "GitHub"
+      code_url: "https://github.com/mitdbg/palimpzest"
+
+    - type: id_allpublications
+      authors: "E. Lai, G. Vitagliano, Z. Zhang, O. Chabra, S. Sudhir, A. Zeng, A. Zabreyko, C. Li, F. Kossmann, J. Ding, J. Chen, M. Markakis, M. Russo, W. Wang, Z. Wu, M. Cafarella, L. Cao, S. Madden, T. Kraska"
+      title: "Kramabench: A benchmark for ai systems on data-to-insight pipelines over data lakes"
+      venue: "International Conference on Learning Representations (ICLR)"
+      year: 2026
+      paper_source: "ICLR"
+      paper_url: "https://proceedings.iclr.cc/paper_files/paper/2026/file/e7132f7446c0d61726c523a1af7a6a74-Paper-Conference.pdf"
+      code_source: "GitHub"
+      code_url: "https://github.com/mitdbg/kramabench"
+
+    - type: id_allpublications
+      authors: "J. Lao, A. Zimmerer, O. Ovcharenko, T. Cong, M. Russo, G. Vitagliano, M. Cochez, F. Özcan, G. Gupta, T. Hottelier, H. V. Jagadish, K. Kissel, S. Schelter, A. Kipf, and I. Trummer"
+      title: "SemBench: A Benchmark for Semantic Query Processing Engines"
+      venue: "PVLDB"
+      year: 2026
+      paper_source: "ACM DL"
+      paper_url: "https://dl.acm.org/doi/10.14778/3811243.3811249"
+      code_source: "GitHub"
+      code_url: "https://github.com/SemBench/SemBench/"
+
+    - type: id_allpublications
+      authors: "C. Liu, G. Vitagliano, B. Rose, M. Printz, D. Samson, M. Cafarella"
+      title: "PalimpChat: Declarative and Interactive AI analytics"
+      venue: "International Conference on Management of Data (SIGMOD)"
+      year: 2025
+      paper_source: "ACM DL"
+      paper_url: "https://dl.acm.org/doi/10.1145/3722212.3725122"
+      code_source: "Web Demo"
+      code_url: "https://palimpzest.org/palimpchat"
+
+    - type: id_allpublications
+      authors: "C. Liu, M. Russo, M. Cafarella, L. Cao, P. B. Chen, Z. Chen, M. Franklin, T. Kraska, S. Madden, R. Shahout, G. Vitagliano"
+      title: "Palimpzest: Optimizing AI-Powered Analytics with Declarative Query Processing"
       venue: "International Conference on Innovative Data Systems Research (CIDR)"
       year: 2025
-      paper_source: ""
+      paper_source: "CIDR"
       paper_url: "https://cidrdb.org/cidr2025/papers/p1-liu-cidr25.pdf"
-      code_source: ""
+      code_source: "GitHub"
       code_url: "https://github.com/mitdbg/palimpzest"
 
 
     - type: id_allpublications
-      authors: "M. Hameed, G. Vitagliano, F. Panse, F. Naumann"                 
-      title:: "TASHEEH: Repairing Row-Structure in Raw CSV Files"                 
+      authors: "M. Hameed, G. Vitagliano, F. Panse, F. Naumann"
+      title: "TASHEEH: Repairing Row-Structure in Raw CSV Files"
       venue: "Proceedings of the International Conference on Extending Database Technology (EDBT)"
       year: 2024
       paper_source: OpenProceedings
@@ -36,12 +76,12 @@ page_data:
       code_url: ""
 
     - type: id_allpublications
-      authors: "M. Hameed, G. Vitagliano, F. Naumann"                 
+      authors: "M. Hameed, G. Vitagliano, F. Naumann"
       title: "MORPHER: Structural Transformation of ill-formed Rows." 
       venue: "Proceedings of the International Conference on Information and Knowledge Management (CIKM)"
       year: 2023
-      paper_source: ""
-      paper_url: ""
+      paper_source: "DL ACM"
+      paper_url: "https://dl.acm.org/doi/10.1145/3583780.3614747"
       code_url: ""
       code_source: ""
 
