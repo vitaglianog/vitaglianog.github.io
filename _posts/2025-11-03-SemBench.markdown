@@ -1,0 +1,34 @@
+---
+lng_pair: id_sembench
+title: Benchmarking semantic query processing
+author: Gerardo Vitagliano
+category: academic
+tags: [academic, benchmark, semantic queries, multimodal]
+img: "/assets/img/thumbs/sembench_thumb.png"
+date: 2025-11-03 12:00:00 -0500
+meta_modify_date: 2026-03-27 12:00:00 -0400
+published: true
+---
+
+<!-- outline-start -->
+
+SemBench is a multimodal benchmark for a new generation of semantic query processing engines.
+
+<!-- outline-end -->
+
+#### Benchmarking semantic query engines
+
+Several recent systems extend relational data processing with operations evaluated by language and multimodal models. 
+We call these systems *semantic query engines*. 
+Compared to a relational query, a semantic query may ask the system to classify text, rank images, join records by semantic similarity, or filter data using a natural-language condition.
+
+Compared to structured queries, semantic queries are more flexible and bring unique challenges for evaluation. Runtime is no longer the only important metric, but we also need to understand how different implementations of the query change the answer quality, monetary cost, and robustness as the input grows.
+
+We are happy to introduce [SemBench](https://sembench.github.io/SemBench/), the first semantic query benchmark covering six different real-world scenarios. It combines tables with text, images, and audio, and evaluates semantic filters, joins, mappings, rankings, and classifications. In our experiments, we compared academic systems including Palimpzest, LOTUS, and ThalamusDB with Google BigQuery's AI operators.
+
+#### A child of Dagstuhl
+
+One of my favorite parts of this project is how it began. The initial collaboration grew out of the Dagstuhl seminar on table representation learning, where researchers from several institutions found a shared need for a benchmark that could keep up with this quickly evolving space.
+
+The project now involves Cornell, Google, MIT, the University of Michigan, TU Berlin, UT Nuremberg, and VU Amsterdam. I am very happy that the [paper](https://dl.acm.org/doi/10.14778/3811243.3811249) was accepted at VLDB 2026! 
+The benchmark and [code](https://github.com/SemBench/SemBench/) are public, and we hope other system builders will add their results and help extend it!

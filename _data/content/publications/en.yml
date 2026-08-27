@@ -15,6 +15,16 @@ page_data:
 
   list:
     - type: id_allpublications
+      authors: "M. Taherinezhad, S. Maier, G. Vitagliano, F. Pierri, S. Feuerriegel"
+      title: "AutoSynthesis: An agentic system for automated meta-analysis"
+      venue: "arXiv"
+      year: 2026
+      paper_source: "arXiv"
+      paper_url: "https://arxiv.org/abs/2607.15247"
+      code_source: "Web Demo"
+      code_url: "http://178.104.242.248:8000/"
+
+    - type: id_allpublications
       authors: "M. Russo, C. Liu, S. Sudhir, G. Vitagliano, M. Cafarella, T. Kraska, S. Madden"
       title: "Abacus: A cost-based optimizer for semantic operator systems"
       venue: "PVLDB"
@@ -45,6 +55,16 @@ page_data:
       code_url: "https://github.com/SemBench/SemBench/"
 
     - type: id_allpublications
+      authors: "G. Vitagliano, M. Russo, M. Cafarella, S. Madden, T. Kraska"
+      title: "Semantic Query Plan Optimization for AI-Powered Analytics"
+      venue: "IEEE Data Engineering Bulletin"
+      year: 2026
+      paper_source: "IEEE"
+      paper_url: "http://sites.computer.org/debull/A26jun/issue1.htm"
+      code_source: ""
+      code_url: ""
+
+    - type: id_allpublications
       authors: "C. Liu, G. Vitagliano, B. Rose, M. Printz, D. Samson, M. Cafarella"
       title: "PalimpChat: Declarative and Interactive AI analytics"
       venue: "International Conference on Management of Data (SIGMOD)"
@@ -53,6 +73,16 @@ page_data:
       paper_url: "https://dl.acm.org/doi/10.1145/3722212.3725122"
       code_source: "Web Demo"
       code_url: "https://palimpzest.org/palimpchat"
+
+    - type: id_allpublications
+      authors: "G Vitagliano, J Chen, PB Chen, F Kossmann, E Lai, C Liu, M Russo, S Sudhir, A Zeng, Z Zhang, MJ Cafarella, T Kraska, S Madden"
+      title: "Towards AI-Enabled Data-to-Insights Systems"
+      venue: "IEEE Data Engineering Bulletin"
+      year: 2025
+      paper_source: "IEEE"
+      paper_url: "http://sites.computer.org/debull/A25sep/issue1.htm"
+      code_source: ""
+      code_url: ""
 
     - type: id_allpublications
       authors: "C. Liu, M. Russo, M. Cafarella, L. Cao, P. B. Chen, Z. Chen, M. Franklin, T. Kraska, S. Madden, R. Shahout, G. Vitagliano"

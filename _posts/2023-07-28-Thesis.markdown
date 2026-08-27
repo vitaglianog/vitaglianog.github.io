@@ -60,4 +60,4 @@ Thankfully, I was able to find a last-minute blank CD-Rom and USB burner and man
 Now, it's about waiting for the reviewers to receive the thesis, write their reviews and once they are done, it's possible to schedule a date for the defense my work in front of the official committee.
 
 Look at my dissertation! Isn't it pretty?
-![such a lovely thesis](:thesis.png)
+![such a lovely thesis](:thesis.png){:style="display: block; margin: auto; width: 50%;"}
