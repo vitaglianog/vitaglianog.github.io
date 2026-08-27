@@ -24,7 +24,7 @@ This opens up exciting research questions around optimizing their accuracy, cost
 
 We created [NOVAS](https://www.novasworkshop.org/) as a place to discuss these problems across the data management and AI communities. 
 For the first edition, we invited work on systems for large heterogeneous data collections, semantic operators, multimodal question answering, and database-inspired techniques for optimizing AI workloads.
-We received X submissions, and we accepted Y papers for presentation at the workshop, with a ##% acceptance rate. 
+We accepted 5 papers for presentation at the workshop, with an ~80% acceptance rate. 
 
 #### A great first edition
 
